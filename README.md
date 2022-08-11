@@ -18,7 +18,7 @@ There are also buttons to choose only the A320 or the A321 MSNs, as shown in Fig
         <b>
             Fig.1 - Searching something for All MSNs, the New MSNs and making a Custom Search.
         </b>
-    </figcaprion>
+    </figcaption>
 </figure>
 
 
@@ -30,7 +30,7 @@ There are also buttons to choose only the A320 or the A321 MSNs, as shown in Fig
         <b>
             Fig.2 - Searching something for the Airbus A320 or A321 airplanes.
         </b>
-    </figcaprion>
+    </figcaption>
 </figure>
 
 Moreover, there are buttons so the user can choose between two Options for the Technical Publication Manuals. As shown in Figure 3, each tab is named after the respective MSN to make navigating easier, and each tab group is coloured by the respective Option and is named after the search query.
@@ -43,7 +43,7 @@ Moreover, there are buttons so the user can choose between two Options for the T
         <b>
             Fig.3 - Grouped tabs for each option used.
         </b>
-    </figcaprion>
+    </figcaption>
 </figure>
 
 ## How to Install
@@ -61,7 +61,7 @@ Moreover, there are buttons so the user can choose between two Options for the T
         <b>
             1) Click "Manage extensions" at the top right of Google Chrome.
         </b>
-    </figcaprion>
+    </figcaption>
 </figure>
 
 <figure align="center">
@@ -70,7 +70,7 @@ Moreover, there are buttons so the user can choose between two Options for the T
         <b>
             2) Enable "Developer mode".
         </b>
-    </figcaprion>
+    </figcaption>
 </figure>
 
 <figure align="center">
@@ -79,7 +79,7 @@ Moreover, there are buttons so the user can choose between two Options for the T
         <b>
             3) Click "Load unpacked".
         </b>
-    </figcaprion>
+    </figcaption>
 </figure>
 
 <figure align="center">
@@ -88,7 +88,7 @@ Moreover, there are buttons so the user can choose between two Options for the T
         <b>
             4) Browse to the location of the extension and select the whole folder.
         </b>
-    </figcaprion>
+    </figcaption>
 </figure>
 
 <figure align="center">
@@ -97,7 +97,7 @@ Moreover, there are buttons so the user can choose between two Options for the T
         <b>
             5) The extension should appear in Google Chrome.
         </b>
-    </figcaprion>
+    </figcaption>
 </figure>
 
 <figure align="center">
@@ -106,7 +106,7 @@ Moreover, there are buttons so the user can choose between two Options for the T
         <b>
             6) Click the "Pin" to pin the extension at the top right of Goggle Chrome.
         </b>
-    </figcaprion>
+    </figcaption>
 </figure>
 
 ## Configuration
