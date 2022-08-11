@@ -1,0 +1,340 @@
+body {
+	background: none;
+	/*background-color: #00205B;*/
+	margin: 0px !important;
+}
+
+.popup {
+	display: block;
+	position: relative;
+	width: 300px;
+	/* height: 300px; */
+	border-radius: 10px 10px 10px 10px;
+	background: none;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.my_top {
+    text-align: center;
+	border-radius: 10px 10px 0 0;
+	background: #00205B;
+    /* background: #122F59; */
+	color: #FFFFFF;
+	padding: 15px 20px 15px 20px;
+    font-family: Arial;
+	font-weight: bold;
+	font-size: 28px;
+    cursor: default;
+}
+
+.my_bot {
+	border-radius: 0 0 10px 10px;
+	background: #FFFFFF;
+	color: #002A78;
+	padding: 15px 20px 1px 20px;
+    /* font-size: 14px; */
+
+}
+
+.airbusImage {
+    width: 140px;
+    height: auto;
+    margin: -18px;
+}
+
+a.airnavX {
+    font-size: 28px;
+    position: relative;
+    margin-right: 20px;
+}
+
+a.airnavX span{
+    color: #00aec7;
+    position: absolute;
+    bottom: 5px;
+}
+
+/* --------------------------------- SEARCHBAR --------------------------------------- */
+
+.searchbar {
+    width: 100%;
+    height: 30px;
+    max-width: 300px;
+    display: inline-flex;
+    margin-bottom: 7px;
+}
+
+.searchbar--max-width {
+    max-width: 100%;
+}
+
+.searchbar__input {
+    flex-grow: 1;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #002A78;
+    border-radius: 5px 0 0 5px;
+    /* background: #F2F6FF; */
+    transition: background 0.25s, box-shadow 0.25s;
+    /* font-size: 14px !important; */
+}
+
+.searchbar__input:focus {
+    background: white;
+    box-shadow: 0 0 2px #B8CDF5;
+}
+
+.searchbar__input::placeholder {
+    color: #B8CDF5;
+}
+
+.searchbar__button {
+    margin: 0;
+    width: 40px;
+    background: #002A78;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    user-select: none;
+}
+
+.searchbar__button:active {
+    /* box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.25); */
+    opacity: 0.90;
+}
+
+
+/* --------------------------------- MSN BUTTONS --------------------------------------- */
+
+/* button {
+    width: 30px;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    margin: 10px;
+}
+
+button.current {
+    box-shadow: 0 0 0 3px white,
+    0 0 0 3px black;
+} */
+
+/*
+Import this: 
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+*/
+.msn-btn {
+    width: auto;
+    height: auto;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    margin: 3px;
+    background-color: inherit;
+    padding: 7px 7px;
+    color: #00205B;
+    font-size: 14px;
+    font-family: "Lato", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+        Helvetica, Arial, sans-serif;
+    cursor: pointer;
+    /* display: inline-block; */
+  }
+
+.msn-btn:active {
+    opacity: 0.90;
+}
+
+/* ----------- A320 ----------- */
+.A320 {
+    color: #00205B;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.A320:hover {
+    background-color: #FFAB40;
+    color: white;
+    /* color: #00205B; */
+    text-decoration: none;
+    font-style: normal;
+    text-shadow: 1px 1px 2px black;
+}
+
+.A320.selectedMSNButton {
+    background-color: #FFAB40;
+    color: white;
+    /* color: #00205B; */
+    text-decoration: none;
+    font-style: normal;
+    text-shadow: 1px 1px 2px black;
+    font-weight: bold;
+}
+
+/* ----------- A321 ----------- */
+.A321 {
+    color: #00205B;
+}
+  
+.A321:hover {
+    background-color: #00205B;
+    color: white;
+    /* text-decoration: none;
+    font-style: normal; */
+}
+
+.A321.selectedMSNButton {
+    background-color: #00205B;
+    color: white;
+    /* text-decoration: none;
+    font-style: normal; */
+    font-weight: bold;
+}
+
+.container-MSNs {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 0px;
+    padding: 0px;
+    margin-bottom: 15px;
+}
+
+/* --------------------------------- MAIN BUTTONS --------------------------------------- */
+
+.container-main-buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0px;
+    padding: 0px;
+}
+
+.main-btn {
+    width: auto;
+    height: auto;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    margin: 3px;
+    background-color: inherit;
+    padding: 7px 7px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #00205B;
+    font-family: "Lato", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+        Helvetica, Arial, sans-serif;
+    cursor: pointer;
+}
+
+.main-btn:active {
+    opacity: 0.90;
+}
+
+.main-btn:hover {
+    background-color: #9EB3C2;
+    color: white;
+    text-decoration: none;
+    font-style: normal;
+    text-shadow: 1px 1px 2px black;
+    font-weight: normal;
+}
+
+.main-btn.selectedMainButton {
+    background-color: #9EB3C2;
+    color: white;
+    text-decoration: none;
+    font-style: normal;
+    text-shadow: 1px 1px 2px black;
+    font-weight: bold;
+}
+
+.clear-btn:hover {
+    background-color: #D84727;
+}
+
+.custom-btn:hover {
+    /* background-color: #FFAB40; */
+    cursor: default;
+}
+
+/* 
+Nice gray:
+#96acb7
+#9EB3C2
+
+Nice red for Clear:  
+#D84727  
+#EF5D60
+*/
+
+/* --------------------------------- SWITCH --------------------------------------- */
+
+.container-switch {
+    display: grid;
+    grid-template-rows: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0px;
+    padding: 8px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #00205B;
+    font-family: Arial, sans-serif;
+}
+
+input[type=checkbox]{
+	height: 0;
+	width: 0;
+	visibility: hidden;
+}
+
+label {
+	cursor: pointer;
+	text-indent: -9999px;
+	width: 1fr;
+	height: 25px;
+	background: #FFAB40;
+	display: block;
+	border-radius: 25px;
+	position: relative;
+    margin-top: -3.5px;  /* Hacky way */
+}
+
+label:after {
+	content: '';
+	position: absolute;
+	top: 3px;
+	left: 3px;
+	width: 19px;
+	height: 19px;
+	background: #fff;
+	border-radius: 19px;
+	transition: 0.3s;
+}
+
+input:checked + label {
+	background: #00AEC7;
+}
+
+input:checked + label:after {
+	left: calc(100% - 5px);
+	transform: translateX(-100%);
+}
+
+label:active:after {
+	width: 24px;
+}
+
+/* --------------------------------- LINE --------------------------------------- */
+
+hr {
+    border: 0;
+    height: 1px;
+    border-bottom: 2px dashed #00205B20;
+    /* foreground-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)); */
+}

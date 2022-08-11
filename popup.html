@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="popup.css">
+    </head>
+    <body>
+        <div class="popup">
+            <div class="my_top">
+				<img class="airbusImage" src="images/AIRBUS_WHITE.png">
+				<a class="airnavX"> 
+					| search
+					<span>X</span>
+				</a>
+			</div>
+			<div class="my_bot">
+                <div class="searchbar" id="my_search">
+                    <input type="text" class="searchbar__input" id="searchField" placeholder="e.g. LEAP-1A or PW1100G">
+                    <button type="submit" class="searchbar__button" id="searchButton">
+                        <i class="material-icons">search</i>
+                    </button>
+                </div>
+                <div class="container-switch">
+                    <div>Opt 1</div>
+                    <div>
+                        <input type="checkbox" id="bookSwitch" /><label for="bookSwitch">Toggle</label>
+                    </div>
+                    <div>Opt 2</div>
+                </div>
+                <!-- <hr> -->
+                <div class="container-main-buttons" id="containerMainButtons"></div>
+                <div class="container-MSNs" id="containerMSNs"></div>
+            </div>
+        </div>
+        <script src="popup.js"></script>
+    </body>
+</html>

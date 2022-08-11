@@ -1,0 +1,32 @@
+{
+    "name": "Multisearch Chrome Extension",
+    "description": "Search something for multiple MSNs by opening multiple tabs at once.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "icons": {
+        "32": "images/icon_32.png",
+        "64": "images/icon_64.png",
+        "128": "images/icon_128.png"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "Multisearch Chrome Extension",
+        "default_icon": { 
+            "32": "images/icon_32.png",
+            "64": "images/icon_64.png",
+            "128": "images/icon_128.png"
+        }
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": ["storage", "activeTab", "tabGroups", "scripting"],
+    "host_permissions": ["<all_urls>"],
+    "content_scripts": [{
+        "matches": [
+            "https://www.google.com/*"
+        ],
+        "run_at": "document_end",
+        "js": ["content_script.js"]
+    }]
+}
